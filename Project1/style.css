@@ -1,0 +1,113 @@
+.menu a {
+    color: darkslateblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li:hover {
+    color: blue;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    background: paleturquoise;
+}
+
+.forma form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.forma form input {
+    font-size: 18px;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.6;
+    width: 250px;
+    height: 30px;
+    margin: 10px 15px 15px 10px;
+}
+
+.forma h1 {
+    text-align: center;
+}
+
+.button {
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: blue;
+}
+
+.button:active {
+    background: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/*Прижатие футера*/
+* {
+    margin: auto;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+    background: linear-gradient()
+}
+
+/*Фон*/
+body {
+    background: linear-gradient(-45deg, #0000dd, #ccffff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
